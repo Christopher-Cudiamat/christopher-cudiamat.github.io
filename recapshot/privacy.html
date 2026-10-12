@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recapshot Privacy Policy</title>
+<meta name="description" content="What Recapshot accesses on your phone and what happens to it. Everything stays on your device.">
+<style>
+  :root {
+    --bg: #fbfbf7; --text: #1c1d1a; --muted: #5d6058; --line: #e3e4dc;
+    --card: #ffffff; --accent: #4f7a00; --accent-bg: #eef6dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121310; --text: #ecede6; --muted: #a3a69c; --line: #2c2e28;
+            --card: #1a1b17; --accent: #b5e04a; --accent-bg: #222a12; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 36px 0 8px; }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  .short { background: var(--accent-bg); border-left: 4px solid var(--accent);
+           padding: 14px 16px; border-radius: 8px; }
+  a { color: var(--accent); }
+  .items { display: grid; gap: 12px; margin-top: 12px; }
+  .item { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .item h3 { font-size: 1rem; margin: 0 0 6px; }
+  .item p { margin: 4px 0; }
+  .label { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+  ul { padding-left: 20px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Recapshot Privacy Policy</h1>
+  <p class="date">Last updated: 12 October 2026</p>
+
+  <p>Recapshot ("the app") is a screenshot companion that helps you come back to the screenshots you'd otherwise forget. This policy explains what the app accesses and what happens to it.</p>
+
+  <p class="short"><strong>In short:</strong> everything stays on your phone. Recapshot has no account and no server, and it does not upload your screenshots, notes, voice notes or anything it reads from your screenshots. It does not use your location.</p>
+
+  <h2>What the app accesses, and why</h2>
+  <div class="items">
+    <div class="item">
+      <h3>Photos: your screenshots</h3>
+      <p><span class="label">Why</span><br>To show them, sort them by app and category, read the text in them (on-device), find duplicates, and remind you about them.</p>
+      <p><span class="label">Where it goes</span><br>Stays on your phone. The app only reads screenshot albums. It changes your gallery only when you ask: deleting a screenshot, or moving one into the vault (below). Your phone confirms each time.</p>
+    </div>
+    <div class="item">
+      <h3>Text read from screenshots</h3>
+      <p><span class="label">Why</span><br>On-device text recognition (Google ML Kit on Android, Apple Vision on iOS) powers search, sorting, quick actions (copy a code, call a number, add a date), and cleanup suggestions.</p>
+      <p><span class="label">Where it goes</span><br>Stored in a local database on your phone. You can delete it any time (Me → Smart sorting → off → Delete the text it read).</p>
+    </div>
+    <div class="item">
+      <h3>Notes, links, to-dos, reminders, edits</h3>
+      <p><span class="label">Why</span><br>Things you add to a screenshot.</p>
+      <p><span class="label">Where it goes</span><br>Stored locally on your phone.</p>
+    </div>
+    <div class="item">
+      <h3>Microphone (optional)</h3>
+      <p><span class="label">Why</span><br>Only when you tap "Record a voice note".</p>
+      <p><span class="label">Where it goes</span><br>The recording is saved in the app's private folder on your phone.</p>
+    </div>
+    <div class="item">
+      <h3>Notifications (optional)</h3>
+      <p><span class="label">Why</span><br>Reminders, the daily recap, "Why did you save this?" prompts.</p>
+      <p><span class="label">Where it goes</span><br>Local notifications scheduled on your phone.</p>
+    </div>
+    <div class="item">
+      <h3>Clipboard</h3>
+      <p><span class="label">Why</span><br>Only read when you tap <strong>Paste</strong> (to attach a copied link). The app may check whether the clipboard holds text, without reading it, to decide whether to show the Paste button.</p>
+      <p><span class="label">Where it goes</span><br>Not stored except as the link you chose to attach.</p>
+    </div>
+    <div class="item">
+      <h3>Vault (optional)</h3>
+      <p><span class="label">Why</span><br>Screenshots you move into the vault leave your gallery and are kept in the app's private folder, behind a vault PIN and your fingerprint or face. Moving one out puts it back in your gallery.</p>
+      <p><span class="label">Where it goes</span><br>The vault holds the only copy, so uninstalling the app deletes vaulted screenshots. Move them out first. The vault PIN is stored only as a salted hash.</p>
+    </div>
+    <div class="item">
+      <h3>Fingerprint / face</h3>
+      <p><span class="label">Why</span><br>To open the vault, and to confirm it's you if you forget the vault PIN. Uses your phone's own check.</p>
+      <p><span class="label">Where it goes</span><br>The app never sees your biometric data.</p>
+    </div>
+  </div>
+
+  <h2>Network use</h2>
+  <p>Apart from Google Play checking whether you bought Pro, Recapshot doesn't connect to the internet. Everything happens on your phone.</p>
+  <p>Links you open (source links, links found in screenshots) open in your browser or the relevant app.</p>
+
+  <h2>Purchases</h2>
+  <p>Recapshot Pro is a one-time purchase made through Google Play. Google handles the payment; the app never sees your card or payment details. It only learns from Google Play whether Pro is unlocked on your account.</p>
+
+  <h2>Sharing</h2>
+  <p>When you share a screenshot, you choose where it goes. If "Add source when sharing" is on, the shared image includes a strip with your note, the source link and "via Recapshot". You can turn this off in Me.</p>
+  <p><strong>Backups</strong> are files you create and save wherever you choose. The app doesn't upload them.</p>
+
+  <h2>Data retention and deletion</h2>
+  <ul>
+    <li>Uninstalling the app deletes everything it stored: notes, read text, voice notes, settings and <strong>screenshots in the vault</strong>. Screenshots in your gallery stay there.</li>
+    <li>Deleting a screenshot in the app also deletes its notes, reminders, voice note and read text.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Recapshot is not directed at children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted here with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:cudiamatchristopher.v@gmail.com">cudiamatchristopher.v@gmail.com</a></p>
+
+  <footer>Recapshot · Christopher Cudiamat</footer>
+</main>
+</body>
+</html>
